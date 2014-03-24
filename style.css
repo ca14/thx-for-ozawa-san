@@ -4,7 +4,7 @@ html body #container .header,html body #container .article,html body #container 
 html body #container .header{position:absolute;top:0}
 html body #container .article{position:absolute;top:200px}
 html body #container .footer{position:absolute;bottom:0}
-html body #container .back{background-image:url("/images/background.png");background-repeat:no-repeat;background-size:cover;position:absolute;min-height:100%;left:0;top:0}
+html body #container .back{background-image:url("images/background.png");background-repeat:no-repeat;background-size:cover;position:absolute;min-height:100%;left:0;top:0}
 html body #container #logo{display:block;margin:0 auto;-webkit-transform:translate(0%,0%);transition:all .5s}
 html body #container #frame{display:block;margin:0 auto}
 html body #container #movie{position:relative;margin:0 auto;width:640px;top:14px}
