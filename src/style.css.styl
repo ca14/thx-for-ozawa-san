@@ -1,56 +1,61 @@
-body
+html
   margin 0
   padding 0
-  background-color #ffc248
+  overflow hidden
 
-  #container
+  body
+    background-color #ffc248
 
-    .header, .article, .footer, .back
-      width 100%
+    #container
 
-    .header
-      position absolute
-      top 0
+      .header, .article, .footer, .back
+        width 100%
 
-    .article
-      position absolute
-      top 200px
+      .header
+        position absolute
+        top 0
 
-    .footer
-      position absolute
-      bottom 0
+      .article
+        position absolute
+        top 200px
 
-    .back
-      background-image url("/images/background.png")
-      background-repeat no-repeat
-      background-size cover
-      position absolute
-      min-height 100%
-      left 0
-      top 0
+      .footer
+        position absolute
+        bottom 0
 
-    #logo
-      display block
-      margin 0 auto
+      .back
+        background-image url("/images/background.png")
+        background-repeat no-repeat
+        background-size cover
+        position absolute
+        min-height 100%
+        left 0
+        top 0
 
-    #frame
-      display block
-      margin 0 auto
+      #logo
+        display block
+        margin 0 auto
+        -webkit-transform translate(0%, 0%)
+        transition all 0.5s
 
-    #movie
-      position relative
-      margin 0 auto
-      width 640px
-      top 14px
+      #frame
+        display block
+        margin 0 auto
 
-    #ca14
-      display block
-      margin 0 auto
+      #movie
+        position relative
+        margin 0 auto
+        width 640px
+        top 14px
 
-    #top
-      display block
-      margin 0 auto
+      #ca14
+        display block
+        margin 0 auto
 
-    #bottom
-      display block
-      margin 0 auto
+      #top
+        display block
+        margin 0 auto
+
+      #bottom
+        display block
+        margin 0 auto
