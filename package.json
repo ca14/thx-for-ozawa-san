@@ -1,0 +1,14 @@
+{
+  "name": "thx-for-ozawa-san",
+  "version": "0.0.0",
+  "description": "thank you for everything",
+  "main": "index.html",
+  "scripts": {
+    "build": "node_modules/harp/bin/harp compile src/ build/"
+  },
+  "author": "jigsaw (http://jgs.me)",
+  "license": "MIT",
+  "devDependencies": {
+    "harp": "~0.11.2"
+  }
+}
