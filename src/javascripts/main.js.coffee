@@ -3,17 +3,17 @@ loadedImages = 0
 logoDisplay = ->
   $(".logo-container").transition
     y: "200px"
-  , 500, "linear"
+  , 800, "linear"
 
 decoDisplay = ->
   $(".deco-container").transition
     opacity: 1
-  , 500, "linear"
+  , 800, "linear"
 
 displayAll = ->
   $(".ca14-container").transition
     y: "-400px"
-  , 500, "linear"
+  , 800, "linear"
 
   setTimeout logoDisplay, 1000
   setTimeout decoDisplay, 1200
