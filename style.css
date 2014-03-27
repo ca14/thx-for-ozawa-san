@@ -5,7 +5,7 @@ html body #container .header{position:absolute;top:0}
 html body #container .article{position:absolute;top:200px;}
 @media (max-width: 320px){html body #container .article{top:160px}
 }html body #container .footer{position:absolute;bottom:0}
-html body #container .back{background-image:url("images/background.png");background-repeat:no-repeat;background-size:cover;position:absolute;min-height:100%;left:0;top:0}
+html body #container .back{background-image:url("images/background.png");background-repeat:no-repeat;background-position:center;position:absolute;min-height:100%;left:0;top:0}
 html body #container iframe{width:640px;height:360px;}
 @media (max-width: 320px){html body #container iframe{width:306px;height:172px;margin:-7px 7px 7px 7px}
 }html body #container .logo-container{top:-200px;}
