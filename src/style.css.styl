@@ -5,6 +5,7 @@ html
 
   body
     background-color #ffc248
+    margin 0
 
     #container
 
@@ -18,6 +19,8 @@ html
       .article
         position absolute
         top 200px
+        @media(max-width: 320px)
+          top 160px
 
       .footer
         position absolute
@@ -32,17 +35,30 @@ html
         left 0
         top 0
 
+      iframe
+        width 640px
+        height 360px
+        @media(max-width: 320px)
+          width 306px
+          height 172px
+          margin -7px 7px 7px 7px
 
       .logo-container
         top -200px
+        @media(max-width: 320px)
+          top -165px
 
         #logo
           display block
           margin 0 auto
+          @media(max-width: 320px)
+            width 320px
 
       #frame
         display block
         margin 0 auto
+        @media(max-width: 320px)
+          width 320px
 
       #movie
         position relative
@@ -56,13 +72,34 @@ html
         #ca14
           display block
           margin 0 auto
+          @media(max-width: 320px)
+            width 320px
+
       .deco-container
         opacity 0
 
         #top
           display block
           margin 0 auto
+          background-position center
+          background-repeat no-repeat
+          background-image url("images/top.png")
+          height 326px
+
+          @media(max-width: 320px)
+            background-image url("images/top_sp.png")
+            height 157px
+            background-size contain
 
         #bottom
           display block
           margin 0 auto
+          background-position center
+          background-repeat no-repeat
+          background-image url("images/bottom.png")
+          height 342px
+
+          @media(max-width: 320px)
+            background-image url("images/bottom_sp.png")
+            height 160px
+            background-size contain
